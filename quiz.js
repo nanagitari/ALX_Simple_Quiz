@@ -4,15 +4,15 @@ function checkAnswer () {
 
     let feedback= document.getElementById('feedback');
 
-    if (userAnswer==correctAnswer){
-        feedback.textContent= "Correct! Well done";
+    if (userAnswer===correctAnswer){
+        feedback.textContent= "Correct! Well done.";
     } 
     else {
-        feedback.textContent= "Incorrect! Try Again";
+        feedback.textContent= "Incorrect! Try Again.";
     }
 
 }
     let submitButton = document.getElementById('submit-answer');
-    submitButton.addEventListener('click',checkAnswer);
+    submitButton.addEventListener('click', checkAnswer);
 
 
