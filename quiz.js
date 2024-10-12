@@ -8,7 +8,7 @@ function checkAnswer () {
         feedback.textContent= "Correct! Well done";
     } 
     else {
-        feedback.textContent= "Incorrect! Try Again.";
+        feedback.textContent= "That's incorrect. Try again!";
     }
 
 }
